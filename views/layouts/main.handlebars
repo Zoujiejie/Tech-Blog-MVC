@@ -26,10 +26,10 @@
     {{{body}}}
   </main>
 
-  <footer class="flex-row justify-center">
-    &copy; The Tech Blog Folks
-  </footer>
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+    
 </body>
 
 </html>
-<script src="/javascript/logout.js"></script>
